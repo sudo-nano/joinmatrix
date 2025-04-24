@@ -11,7 +11,7 @@ order: 7
 ## Fix decryption error
 
 <div class="flash flash-warn">
-  As homeserver federation is a variable factor in key exchange, homeserver performance and networking does matter in preventing those issues. If you consistently encounter decryption issues, you may want to check whether your homeserver is working correctly. Specifically, if you are on matrix.org, it is recommended to <a href="https://servers.joinmatrix.org">move to a different homeserver</a> due to reliability issues.
+  As homeserver federation is a variable factor in key exchange, homeserver performance and networking does matter in preventing those issues. If you consistently encounter decryption issues, you may want to check whether your homeserver is working correctly. Specifically, if you are on matrix.org, it is recommended to <a href="https://servers.joinmatrix.org">move to a different homeserver</a> due to reliability issues. You can also <a href="https://federationtester.matrix.org/">check your homeserver's federation status.</a>
 </div>
 
 <div class="flash">
@@ -31,7 +31,7 @@ Note that the instructions are relative to Element, but in principle similar ste
     2. Open the device that cannot read the messages ("device B" thereafter) and navigate to the same room.
     3. The message keys should start coming in a few moments.
 
-3. If the above doesn't work:
+3. If at least one of your devices can read the messages (alternate method):
 
     1. Navigate to Settings => Security & Privacy on both devices.
     2. On device A, click "Export E2E room keys". Follow the instructions.
